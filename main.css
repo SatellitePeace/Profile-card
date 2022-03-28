@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./images/bg-pattern-bottom.svg) ;
+    
+    background-image: url(./images/bg-pattern-top.svg) 
+;
+background-position: bottom;
+background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+  grid-template-columns: minmax(375px, 1440px);
+
+}
+h1, h2{
+    font-size: 18px;
+    padding: 1rem 0;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.main-div{
+    height: 100%;
+    width: 100%;
+    max-width: 20rem;
+    background:whitesmoke ;
+    border-radius: 15px;
+ 
+}
+.main-img{
+    border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+}
+.text h1{
+    padding-top: 4rem;
+    padding-bottom: 0.2;
+}
+.text p{
+    opacity: 0.4;
+font-size: 15px;
+}
+span{
+    opacity: 0.5;
+}
+.pattern{
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.avater{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.victor{
+    width: 6rem;
+    border-radius: 50%;
+    border:4px solid whitesmoke;
+}
+.victor{
+   top: 50%;
+   left: 50%;
+   position: absolute;
+  transform: translate(-50%, -50%);
+}
+.text p{
+    text-align: center;
+}
+.underline{
+    width: 100%;
+    height: 1px;
+    background:hsl(227, 10%, 46%) ;
+    margin-top: 1.5rem;
+    opacity: 0.3;
+}
+.main-footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+;
+column-gap: 2rem;
+padding: 0 1rem;
+}
+.main-footer p{
+    font-size: 12px;
+   padding-bottom: 1.5rem;
+   opacity: 0.5;
+   letter-spacing: 2px;
+   font-weight: 700;
+}
+/* attribution */
+.attribution { 
+    font-size: 11px; text-align: center;
+    padding: 1rem;
+}
+    .attribution a { color:  whitesmoke; }# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+
+### Neutral
+
+Dark gray: hsl(0, 0%, 59%)
+
+## Typography
+
+### Body Copy
+
+- Font size (name and stats): 18px
+
+### Font
+
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Weights: 400, 700
